@@ -1,0 +1,92 @@
+body {
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #04293a;
+}
+header {
+  padding: 100px;
+  background-color: #c8e3d4;
+  transition: 600ms;
+}
+header:hover {
+  background-color: #04293a;
+  color: #c8e3d4;
+}
+main {
+  padding-top: 20px;
+  background-color: #eeeeee;
+  transition: 400ms;
+  height: 90vh;
+}
+main:hover {
+  background-color: #04293a;
+  color: #c8e3d4;
+}
+
+.col:hover {
+  background-color: #c8e3d4;
+  color: #04293a;
+}
+
+.col {
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  color: white;
+  margin: 30px 0;
+  background-color: #191a19;
+  height: 200px;
+  border-radius: 10px;
+  transition: 600ms;
+}
+
+.replit {
+  margin-right: 5px;
+}
+.web {
+  margin-left: 5px;
+}
+.greetings {
+  text-align: center;
+  margin: 80px;
+}
+
+.web a {
+  position: relative;
+  top: 105px;
+}
+.replit a {
+  position: relative;
+  top: 105px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #c8e3d4;
+}
+
+.webTitle,
+.progTitle {
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+/* .webCtn,
+.progCtn {
+  text-align: center;
+} */
+
+img {
+  margin-top: 50px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.webProjects,
+.progProjects {
+  border-radius: 10px;
+  margin-top: 80px;
+  background-color: #c8e3d4;
+  width: 50%;
+  margin-left: 25%;
+}
